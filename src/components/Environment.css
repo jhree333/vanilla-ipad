@@ -1,0 +1,19 @@
+/* Environment */
+.environment {
+  padding: 20px 20px 0;
+  background-color: var(--color-section);
+  text-align: center;
+}
+.environment .icon {
+  margin-left: auto;
+  margin-right: auto;
+}
+.environment h1 {
+  color: #03a10e;
+}
+
+@media (max-width: 1000px) {
+  .environment p br {
+    display: none;
+  }
+}
